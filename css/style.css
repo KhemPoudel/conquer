@@ -1,0 +1,40 @@
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif!important;
+}
+.navbar {
+  overflow: hidden;
+  width: 100%;
+  background-color: white;
+}
+
+.navbar-inverted {
+  background-color:#383E4C;
+  border-color: #383E4C;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: 1020;
+  border-width: 0 0 1px;
+}
+
+.navbar-menu {
+  text-align: center;
+}
+
+.navbar-menu > li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.navbar-menu > li > a {
+  color: #fff;
+  padding: 15px 25px;
+  border: 1px solid #646d7e;
+  font-size: 20px;
+  text-transform: capitalize;
+  background: #383E4C none repeat scroll 0 0;
+}
